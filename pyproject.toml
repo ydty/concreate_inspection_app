@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "concrete_annotation"
+version = "0.1.0"
+description = ""
+authors = ["hirose.tomoki@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+pycocotools = "^2.0.2"
+segmentation-models = "^1.0.1"
+opencv-python = "^4.2.0.34"
+tensorflow = "2.4.0"
+albumentations = "^1.1.0"
+plotly = "^5.4.0"
+pandas = "1.1"
+mlflow = "^1.22.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+radon = "^5.1.0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
