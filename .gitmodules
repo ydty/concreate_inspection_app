@@ -1,0 +1,6 @@
+[submodule "app/visual_inspection_app"]
+	path = app/visual_inspection_app
+	url = https://github.com/ydty/visual_inspection_app.git
+[submodule "app/dashboard"]
+	path = app/dashboard
+	url = https://github.com/ydty/dashboard.git
